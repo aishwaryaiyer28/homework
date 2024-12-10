@@ -13,7 +13,7 @@ st = StateInfo 0
 
 spec :: Spec
 spec = do 
-    describe "SUTD.Compiler.BigStepEval" $ do
+    describe "SUTD.Compiler.SmallStepEval" $ do
         it "const should be evaluated to const" $ 
             let input = ConstTerm (IntConst 1)
                 result = runStateT (eval input) st
