@@ -63,7 +63,7 @@ Recall the Small Step Operational Semantics for Lambda Calculus are defined as f
 Rule ${\tt (Fix1)}$ evaluates the argument of $fix$ operator by a step, until it becomes a lambda abstraction.
 Rule ${\tt (Fix2)}$ "unfold" the fixed point function $\lambda f.t$, by subsituting occurences of $f$ in $t$ by $fix\ \lambda f.t$.
 
-and free variable extrction function
+and free variable extraction function
 
 ```math
 \begin{array}{rcl}

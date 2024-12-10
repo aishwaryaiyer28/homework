@@ -70,7 +70,7 @@ appSubst s (IfTerm t1 t2 t3) = do
     t6 <- appSubst s t3
     return (IfTerm t4 t5 t6)
 appSubst (x, u) (LetTerm y t2 t3)
-    | (y /= x) && y `member` fv u = do
+    | (y /= x) && not (y `member` fv u) = do
         t4 <- appSubst (x, u) t2
         t5 <- appSubst (x, u) t3
         return (LetTerm y t4 t5)
@@ -87,7 +87,7 @@ appSubst (x, u) (LetTerm y t2 t3)
         t5  <- appSubst (x, u) t3' -- subst after alpha renaming 
         return (LetTerm z t4 t5)
 appSubst (x, u) (LambdaTerm y  t2)
-    | (y /= x) && y `member` fv u = do
+    | (y /= x) && not (y `member` fv u) = do
         t3 <- appSubst (x, u) t2
         return (LambdaTerm y t3)
     | otherwise = do
