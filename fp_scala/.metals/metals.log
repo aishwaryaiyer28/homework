@@ -1,0 +1,19 @@
+2024.09.05 13:13:13 INFO  Started: Metals version 1.3.5 in folders '/Users/luzm/git/compilerdesign/homework_scala/fp_scala' for client Visual Studio Code 1.92.2.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@18558808]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@6f3bae93]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@18558808]
+2024.09.05 13:13:13 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+Sep 05, 2024 1:13:14 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2024.09.05 13:13:26 INFO  no build target found for /Users/luzm/git/compilerdesign/homework_scala/fp_scala/src/main/scala/sutd/compiler/regexmatch/RegExp.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 13:18:37 INFO  no build target found for /Users/luzm/git/compilerdesign/homework_scala/fp_scala/src/main/scala/sutd/compiler/regexmatch/RegExp.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 13:22:20 INFO  no build target found for /Users/luzm/git/compilerdesign/homework_scala/fp_scala/src/test/scala/sutd/compiler/regexmatch/TestRegExp.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 13:22:49 INFO  no build target found for /Users/luzm/git/compilerdesign/homework_scala/fp_scala/src/test/scala/sutd/compiler/regexmatch/TestRegExp.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 13:22:49 INFO  no build target found for /Users/luzm/git/compilerdesign/homework_scala/fp_scala/src/test/scala/sutd/compiler/regexmatch/TestRegExp.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 13:25:09 INFO  no build target found for /Users/luzm/git/compilerdesign/homework_scala/fp_scala/src/test/scala/sutd/compiler/regexmatch/TestRegExp.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 13:25:09 INFO  no build target found for /Users/luzm/git/compilerdesign/homework_scala/fp_scala/src/main/scala/sutd/compiler/regexmatch/RegExp.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.05 13:25:36 INFO  Shutting down server
+2024.09.05 13:25:36 INFO  shutting down Metals
+2024.09.05 13:25:36 INFO  Exiting server

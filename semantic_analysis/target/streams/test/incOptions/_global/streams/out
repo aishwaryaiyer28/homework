@@ -1,0 +1,14 @@
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /Users/luzm/git/compilerdesign/homework_scala/semantic_analysis/target/scala-3.3.0/test-classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /Users/luzm/git/compilerdesign/homework_scala/semantic_analysis/target/scala-3.3.0/test-classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TestAlgorithmW.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TestBigStepEval.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TestSmallStepEval.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TestAlgorithmW.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TestBigStepEval.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TestSmallStepEval.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: /Users/luzm/git/compilerdesign/homework_scala/semantic_analysis/target/scala-3.3.0/test-classes.bak[0m

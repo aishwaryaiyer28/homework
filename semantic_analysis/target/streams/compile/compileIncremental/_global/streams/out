@@ -1,0 +1,24 @@
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
+[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 0 products, 0 sources, 0 libraries[0m
+[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/src/main/scala/sutd/compiler/Applicative.scala, ${BASE}/src/main/scala/sutd/compiler/BigStepEval.scala, ${BASE}/src/main/scala/sutd/compiler/Functor.scala, ${BASE}/src/main/scala/sutd/compiler/Monad.scala, ${BASE}/src/main/scala/sutd/compiler/Util.scala, ${BASE}/src/main/scala/sutd/compiler/LambdaCalculus.scala, ${BASE}/src/main/scala/sutd/compiler/StateT.scala, ${BASE}/src/main/scala/sutd/compiler/AlgorithmW.scala, ${BASE}/src/main/scala/sutd/compiler/SmallStepEval.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(${BASE}/src/main/scala/sutd/compiler/Functor.scala, ${BASE}/src/main/scala/sutd/compiler/Util.scala, ${BASE}/src/main/scala/sutd/compiler/Applicative.scala, ${BASE}/src/main/scala/sutd/compiler/LambdaCalculus.scala, ${BASE}/src/main/scala/sutd/compiler/BigStepEval.scala, ${BASE}/src/main/scala/sutd/compiler/SmallStepEval.scala, ${BASE}/src/main/scala/sutd/compiler/AlgorithmW.scala, ${BASE}/src/main/scala/sutd/compiler/StateT.scala, ${BASE}/src/main/scala/sutd/compiler/Monad.scala), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())[0m
+[0m[[0m[0mdebug[0m] [0m[0mFull compilation, no sources in previous analysis.[0m
+[0m[[0m[0mdebug[0m] [0m[0mall 9 sources are invalidated[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: [0m
+[0m[[0m[0mdebug[0m] [0m[0mRecompiling all sources: number of invalidated sources > 50.0 percent of all sources[0m
+[0m[[0m[0mdebug[0m] [0m[0mcompilation cycle 1[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 9 Scala sources to /Users/luzm/git/compilerdesign/homework_scala/semantic_analysis/target/scala-3.3.0/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mReturning already retrieved and compiled bridge: /Users/luzm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-sbt-bridge/3.3.0/scala3-sbt-bridge-3.3.0.jar.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 43bc4ce0 for Scala Compiler version 3.3.0[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-feature[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-deprecation[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Yresolve-term-conflict:package[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-source:future[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/luzm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.3.0/scala3-library_3-3.3.0.jar:/Users/luzm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/luzm/git/compilerdesign/homework_scala/semantic_analysis/target/scala-3.3.0/classes:/Users/luzm/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_3/3.2.10/scalactic_3-3.2.10.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 3.226657417 s[0m
+[0m[[0m[0mdebug[0m] [0m[0mdone compiling[0m

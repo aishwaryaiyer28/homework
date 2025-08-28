@@ -1,0 +1,37 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(sutd.compiler.TestBigStepEval, org.scalatest.tools.Framework$$anon$1@70176dc, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(sutd.compiler.TestAlgorithmW, org.scalatest.tools.Framework$$anon$1@70176dc, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(sutd.compiler.TestSmallStepEval, org.scalatest.tools.Framework$$anon$1@70176dc, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mTestBigStepEval:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mTestSmallStepEval:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- big step eval: const should be evaluated to const[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- small step eval: const should be evaluated to const [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- big step eval: identity function should be returning the same value [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- small step eval: identity function should be returning the same value [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- big step eval: factorial 3 should be 6[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- small step eval: factorial 3 should be 6 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  TODO (TestSmallStepEval.scala:55)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mTestAlgorithmW:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- test mgu: int and int can be unified *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  unification failed. Can't unify IntTy with IntTy. (TestAlgorithmW.scala:26)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- test mgu: int and bool cannot be unified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- test mgu: int and alpha can be unified *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  unification failed. Can't unify IntTy with VarTy(a). (TestAlgorithmW.scala:46)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- test mgu: int -> alpha and alpha -> int can be unified *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  unification failed. Can't unify FunTy(IntTy,VarTy(a)) with FunTy(VarTy(a),IntTy). (TestAlgorithmW.scala:56)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- test algo W: one has type int[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- test algo W: \x.x has type alpha -> alpha [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- test algo W: fix \f.\x. if x == 0 then 1 else x * (f (x-1)) has type int => int *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  unification failed. Can't unify BoolTy with BoolTy. (TestAlgorithmW.scala:97)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- test algo W: let f=\x.x in (let g=\x.\y.x in g (f 1) (f true)) has type int *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  TODO (TestAlgorithmW.scala:123)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 142 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 14[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 3, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 8, failed 6, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 6 TESTS FAILED ***[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	sutd.compiler.TestBigStepEval[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	sutd.compiler.TestAlgorithmW[0m
+[0m[[0m[31merror[0m] [0m[0m	sutd.compiler.TestSmallStepEval[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m
