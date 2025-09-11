@@ -36,21 +36,21 @@ The derivative a regular expression $r$ with respect to a letter $l$ is a regula
 
 $$
 \begin{array}{rcl}
-deriv(\phi, l) & = & \phi \\ \\
-deriv(\epsilon, l) & = & \phi \\ \\
-deriv(l_1, l_2) & = & \left [ 
+deriv(\phi , l) & = & \phi \\ \\
+deriv(\epsilon , l) & = & \phi \\ \\
+deriv(l_1 , l_2) & = & \left [ 
     \begin{array}{ll}
     \epsilon & {if\ l_1 = l_2} \\ 
     \phi & {otherwise}
     \end{array}
     \right . \\ \\
-deriv(r_1+r_2, l) & = & deriv(r_1, l) + deriv(r_2, l) \\ \\
-deriv(r_1.r_2, l) & = & \left [ 
+deriv(r_1+r_2 , l) & = & deriv(r_1 , l) + deriv(r_2 , l) \\ \\
+deriv(r_1.r_2 , l) & = & \left [ 
     \begin{array}{ll}
-    deriv(r_1,l).r_2 + deriv(r_2,l) & {if\ eps(r_1)} \\
-    deriv(r_1,l).r_2 & {otherwise}
+    deriv(r_1 ,l).r_2 + deriv(r_2 ,l) & {if\ eps(r_1)} \\
+    deriv(r_1 ,l).r_2 & {otherwise}
     \end{array} \right . \\ \\ 
-deriv(r^*, l) & = & deriv(r,l).r^*
+deriv(r^{* } , l) & = & deriv(r , l).r^{*}
 \end{array}
 $$
 
@@ -58,8 +58,8 @@ Where $eps(r)$ tests whether $r$ possesses the empty word $\epsilon$.
 
 $$
 \begin{array}{rcl}
-eps(r_1+r_2) & = & eps(r_1)\ \vee eps(r_2) \\
-eps(r_1.r_2) & = & eps(r_1)\ \wedge eps(r_2) \\ 
+eps(r_1 + r_2) & = & eps(r_1)\ \vee eps(r_2) \\
+eps(r_1 . r_2) & = & eps(r_1)\ \wedge eps(r_2) \\ 
 eps(r^*) & = & true \\ 
 eps(\epsilon) & = & true \\ 
 eps(l) & = & false \\ 
@@ -67,7 +67,8 @@ eps(\phi) & = & false
 \end{array}
 $$
 
-We can define $match(w,r)$ in terms of $deriv(\_,\_)$. 
+
+We can define $match(w,r)$ in terms of $deriv( , )$. 
 
 $$
 match(w,r) = \left [
@@ -176,10 +177,10 @@ Let's consider the following example.
 
 $$
 \begin{array}{ll}
-deriv(a^*.a^*, a) & = \\
-deriv(a^*,a).a^* + deriv(a^*,a) & = \\ 
-deriv(a,a).a^*.a^* + deriv(a, a).a^* & = \\ 
-\epsilon.a^*.a^* + \epsilon.a^*  
+deriv(a^{* } . a^{* } , a) & = \\
+deriv(a^{* } , a) . a^{* } + deriv(a^{* } , a) & = \\ 
+deriv(a , a) . a^{* } . a^{* } + deriv(a , a) . a^{* } & = \\ 
+\epsilon . a^{* } . a^{* } + \epsilon . a^{* }  
 \end{array}
 $$
 
@@ -187,9 +188,9 @@ And if we apply derivative operation to the above result
 
 $$
 \begin{array}{ll}
-deriv(\epsilon.a^*.a^* + \epsilon.a^*, a) & = \\
-deriv(\epsilon.a^*.a^*, a) + deriv(\epsilon.a^*, a) & = \\
-deriv(\epsilon, a).a^*.a^* + deriv(a^*.a^*, a) + deriv(\epsilon, a).a^* + deriv(a^*, a) & =  \\ \phi.a^*.a^* + \epsilon.a^*.a^* + \epsilon.a^*  +  + \phi.a^* + \epsilon.a^*
+deriv(\epsilon.a^{* }.a^{* } + \epsilon.a^{* }, a) & = \\
+deriv(\epsilon.a^{* }.a^{* }, a) + deriv(\epsilon.a^{* }, a) & = \\
+deriv(\epsilon, a).a^{* }.a^{* } + deriv(a^{* }.a^{* }, a) + deriv(\epsilon, a).a^{* } + deriv(a^{* }, a) & =  \\ \phi.a^{* }.a^{* } + \epsilon.a^{* }.a^{* } + \epsilon.a^{* }  +  + \phi.a^{* } + \epsilon.a^{* }
 \end{array}
 $$
 
@@ -227,12 +228,12 @@ $$
 isEps(\epsilon) & = & true \\ 
 isEps(r_1 + r_2) & = & isEps(r_1) \wedge isEps(r_2) \\
 isEps(r_1.r_2) & = & isEps(r_1) \wedge isEps(r_2) \\
-isEps(r^*) & = & isEps(r) \vee isPhi(r) \\ 
+isEps(r^{* }) & = & isEps(r) \vee isPhi(r) \\ 
 isEps(l) & = & false \\ 
 isEps(\phi) & = & false \\ \\ 
 isPhi(\epsilon) & = & false \\ 
 isPhi(r_1 + r_2) & = & isPhi(r_1) \wedge isPhi(r_2) \\
-isPhi(r_1. r_2) & = & isPhi(r_1) \vee  isPhi(r_2) \\
+isPhi(r_1 . r_2) & = & isPhi(r_1) \vee  isPhi(r_2) \\
 isPhi(r^*) & = & false \\ 
 isPhi(l) & = & false \\ 
 isPhi(\phi) & = & true 
