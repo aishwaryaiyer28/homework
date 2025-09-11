@@ -152,6 +152,7 @@ $$
 $$
 
 Type Scheme Instantiation
+
 $$
 \begin{array}{rcl}
 inst(T) & = & T \\
@@ -168,6 +169,7 @@ gen(\Gamma, T) & = & \forall \overline{\alpha}.T\ \ where\ \overline{\alpha} = f
 $$
 
 Type Unification
+
 $$
 \begin{array}{rcl}
 mgu(\alpha, T) & = & [T/\alpha] \\ 
@@ -191,6 +193,7 @@ sbt compile "testOnly sutd.compiler.TestAlgorithmW -- -z mgu"
 ## Task 3 - Algorithm W
 
 Recall the Algorthm W is defined as follows,
+
 $$
 \begin{array}{rc}
 {\tt (wInt)} & \begin{array}{c}
@@ -263,8 +266,8 @@ $$
                 (fix,\forall \alpha. (\alpha\rightarrow \alpha)\rightarrow \alpha) \in \Gamma \\ 
                 inst(\forall \alpha. (\alpha\rightarrow \alpha)\rightarrow \alpha) = T_1 \ \ \ \ \Psi_1 = []
                 \\ 
-                \Psi_1(\Gamma), t_2 \vDash T_2, \Psi_2\ \ \\ \alpha_3 = newvar\ \ \ \Psi_3 = mgu(\Psi_2(T_1), T_2 \rightarrow \alpha_3) 
-                \\ \hline
+                \Psi_1(\Gamma), t_2 \vDash T_2, \Psi_2\ \ \\ \alpha_3 = newvar\ \ \ \Psi_3 = mgu(\Psi_2(T_1), T_2 \rightarrow \alpha_3) \\ 
+                \hline
                 \Gamma, (fix\ t_2) \vDash \Psi_3(\alpha_3), \Psi_3 \circ \Psi_2 \circ \Psi_1 
                \end{array} 
 \end{array}
