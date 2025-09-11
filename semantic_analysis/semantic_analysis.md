@@ -194,51 +194,60 @@ Recall the Algorthm W is defined as follows,
 $$
 \begin{array}{rc}
 {\tt (wInt)} & \begin{array}{c}
-                c\ {\tt is\ an\ integer} 
-                \\ \hline 
+                c\ {\tt is\ an\ integer}
+                \\ 
+                \hline 
                \Gamma, c \vDash int, [] 
                \end{array} \\ \\
 {\tt (wBool)} & \begin{array}{c}
                 c\in \{true,false \} 
-                \\ \hline 
+                \\ 
+                \hline 
                \Gamma, c \vDash bool, [] 
                \end{array} \\ \\ 
 {\tt (wVar)} & \begin{array}{c}
                 (x,\sigma) \in \Gamma \ \ \ inst(\sigma) = T
-                \\ \hline 
+                \\ 
+                \hline 
                \Gamma, x \vDash T, [] 
                \end{array} \\ \\
 {\tt (wFix)} & \begin{array}{c}
                 (fix,\forall \alpha. (\alpha\rightarrow \alpha)\rightarrow \alpha) \in \Gamma \ \ \ inst(\forall \alpha. (\alpha\rightarrow \alpha)\rightarrow \alpha) = T
-                \\ \hline 
+                \\ 
+                \hline 
                \Gamma, fix \vDash T, [] 
                \end{array} \\ \\ 
 {\tt (wLam)} & \begin{array}{c}
                 \alpha_1 = newvar \ \ \ \Gamma \oplus (x,\alpha_1), t \vDash T, \Psi
-                \\ \hline
+                \\ 
+                \hline
                 \Gamma, \lambda x.t \vDash : \Psi(\alpha_1 \rightarrow T ), \Psi
                 \end{array} \\ \\ 
 {\tt (wApp)} & \begin{array}{c}
                 \Gamma, t_1 \vDash T_1, \Psi_1\ \ \ \ \Psi_1(\Gamma), t_2 \vDash T_2, \Psi_2\ \ \\ \alpha_3 = newvar\ \ \ \Psi_3 = mgu(\Psi_2(T_1), T_2 \rightarrow \alpha_3) 
-                \\ \hline
+                \\ 
+                \hline
                 \Gamma, (t_1\ t_2) \vDash \Psi_3(\alpha_3), \Psi_3 \circ \Psi_2 \circ \Psi_1 
                \end{array} \\ \\ 
 {\tt (wLet)} & \begin{array}{c}
                 \Gamma, t_1 \vDash T_1, \Psi_1 \\ \Psi_1(\Gamma) \oplus (x, gen(\Psi_1(\Gamma), T_1)), t_2 \vDash T_2, \Psi_2
-                \\ \hline
+                \\ 
+                \hline
                 \Gamma, let\ x=t_1\ in\ t_2 \vDash T_2, \Psi_2 \circ \Psi_1
              \end{array} \\ \\ 
 {\tt (wOp1)} & \begin{array}{c}
                 op \in \{+,-,*,/\} \\ 
                 \Gamma, t_1 \vDash T_1, \Psi_1 \ \ \ \Psi_1(\Gamma), t_2 \vDash T_2, \Psi_2 \\ 
                 mgu(\Psi_2(T_1), T_2, int) = \Psi_3   
-                \\ \hline 
+                \\ 
+                \hline 
                 \Gamma, t_1\ op\ t_2 \vDash int, \Psi_3 \circ \Psi_2 \circ \Psi_1 
                 \end{array} \\ \\ 
 {\tt (wOp2)} & \begin{array}{c}
                 \Gamma, t_1 \vDash T_1, \Psi_1 \ \ \ \Psi_1(\Gamma), t_2 \vDash T_2, \Psi_2 \\ 
                 mgu(\Psi_2(T_1), T_2) = \Psi_3   
-                \\ \hline 
+                \\ 
+                \hline 
                 \Gamma, t_1\ ==\ t_2 \vDash bool, \Psi_3 \circ \Psi_2 \circ \Psi_1 
                 \end{array} \\ \\ 
 {\tt (wIf)} & \begin{array}{c}
@@ -247,7 +256,8 @@ $$
                 \Psi_1'(\Gamma),t_2 \vDash T_2, \Psi_2 \ \ \
                 \Psi_1'(\Gamma),t_3 \vDash T_3, \Psi_3 \\
                 \Psi_4 = mgu(\Psi_3(T_2), \Psi_2(T_3)) 
-                \\ \hline
+                \\ 
+                \hline
                 \Gamma, if\ t_1\ then\ t_2\ else\ t_3 \vDash \Psi_4(\Psi_3(T_2)),  \Psi_4 \circ \Psi_3 \circ \Psi_2 \circ \Psi_1'
               \end{array}
 \end{array}
