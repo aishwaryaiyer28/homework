@@ -2,7 +2,7 @@ name := "helloworld"
 
 version := "0.0.1"
 
-scalaVersion := "3.1.2"
+scalaVersion := "3.7.2"
 
 
 resolvers += "Typesafe Repository" at "https://repo.typesafe.com/typesafe/releases/"

@@ -2,7 +2,7 @@ name := "regex-compile"
 
 version := "0.0.22"
 
-scalaVersion := "3.3.0"
+scalaVersion := "3.7.2"
 
 
 resolvers += "Typesafe Repository" at "https://repo.typesafe.com/typesafe/releases/"
