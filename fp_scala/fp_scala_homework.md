@@ -87,7 +87,7 @@ eps(\phi) & = & false
 \end{array}
 ```
 
-We can define $match(w,r)$ in terms of $deriv(\_,\_)$. 
+We can define $match(w,r)$ in terms of $deriv( , )$. 
 
 ```math
 match(w,r) = \left \{
