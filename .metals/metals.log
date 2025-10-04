@@ -1,0 +1,70 @@
+2025.09.25 12:31:26 INFO  Started: Metals version 1.6.2 in folders '/Users/aishwaryaiyer/Documents/GitHub/homework' for client Visual Studio Code 1.90.2.
+2025.09.25 12:31:26 INFO  no build target found for /Users/aishwaryaiyer/Documents/GitHub/homework/fp_intro/src/main/scala/sutd/compiler/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.25 12:31:29 INFO  no build target found for /Users/aishwaryaiyer/Documents/GitHub/homework/fp_intro/src/main/scala/sutd/compiler/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.25 12:31:36 INFO  no build target found for /Users/aishwaryaiyer/Documents/GitHub/homework/fp_intro/src/main/scala/sutd/compiler/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.25 12:31:38 INFO  no build target found for /Users/aishwaryaiyer/Documents/GitHub/homework/fp_intro/src/main/scala/sutd/compiler/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.25 12:31:39 INFO  no build target found for /Users/aishwaryaiyer/Documents/GitHub/homework/fp_intro/src/main/scala/sutd/compiler/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.25 12:31:39 INFO  no build target found for /Users/aishwaryaiyer/Documents/GitHub/homework/fp_intro/src/main/scala/sutd/compiler/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.25 12:31:39 INFO  no build target found for /Users/aishwaryaiyer/Documents/GitHub/homework/fp_intro/src/main/scala/sutd/compiler/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.25 12:31:40 INFO  no build target found for /Users/aishwaryaiyer/Documents/GitHub/homework/fp_intro/src/main/scala/sutd/compiler/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.25 12:31:40 INFO  no build target found for /Users/aishwaryaiyer/Documents/GitHub/homework/fp_intro/src/main/scala/sutd/compiler/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.25 12:31:40 INFO  no build target found for /Users/aishwaryaiyer/Documents/GitHub/homework/fp_intro/src/main/scala/sutd/compiler/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.25 12:31:42 INFO  no build target found for /Users/aishwaryaiyer/Documents/GitHub/homework/fp_intro/src/main/scala/sutd/compiler/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.25 12:31:42 INFO  no build target found for /Users/aishwaryaiyer/Documents/GitHub/homework/fp_intro/src/main/scala/sutd/compiler/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.25 12:31:42 INFO  no build target found for /Users/aishwaryaiyer/Documents/GitHub/homework/fp_intro/src/main/scala/sutd/compiler/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.25 12:31:42 INFO  no build target found for /Users/aishwaryaiyer/Documents/GitHub/homework/fp_intro/src/main/scala/sutd/compiler/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.25 12:31:43 INFO  no build target found for /Users/aishwaryaiyer/Documents/GitHub/homework/fp_intro/src/main/scala/sutd/compiler/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.25 12:31:43 INFO  no build target found for /Users/aishwaryaiyer/Documents/GitHub/homework/fp_intro/src/main/scala/sutd/compiler/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.25 12:31:43 INFO  no build target found for /Users/aishwaryaiyer/Documents/GitHub/homework/fp_intro/src/main/scala/sutd/compiler/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.25 12:34:31 INFO  no build target found for /Users/aishwaryaiyer/Documents/GitHub/homework/fp_intro/src/main/scala/sutd/compiler/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.25 12:37:11 INFO  no build target found for /Users/aishwaryaiyer/Documents/GitHub/homework/fp_intro/src/main/scala/sutd/compiler/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.25 12:37:11 INFO  no build target found for /Users/aishwaryaiyer/Documents/GitHub/homework/fp_intro/src/main/scala/sutd/compiler/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.25 12:37:12 INFO  no build target found for /Users/aishwaryaiyer/Documents/GitHub/homework/fp_intro/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.25 12:37:13 INFO  no build target found for /Users/aishwaryaiyer/Documents/GitHub/homework/fp_intro/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.25 12:37:13 WARN  Could not find semantic tokens for: file:///Users/aishwaryaiyer/Documents/GitHub/homework/fp_intro/build.sbt
+2025.09.25 12:37:15 INFO  no build target found for /Users/aishwaryaiyer/Documents/GitHub/homework/fp_intro/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.25 12:37:15 WARN  no build target for: /Users/aishwaryaiyer/Documents/GitHub/homework/fp_intro/src/main/scala/sutd/compiler/Main.scala
+2025.09.25 12:37:15 INFO  no build target found for /Users/aishwaryaiyer/Documents/GitHub/homework/fp_intro/src/main/scala/sutd/compiler/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.25 12:37:15 INFO  no build target found for /Users/aishwaryaiyer/Documents/GitHub/homework/fp_intro/src/main/scala/sutd/compiler/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.25 12:37:15 INFO  no build target found for /Users/aishwaryaiyer/Documents/GitHub/homework/fp_intro/src/main/scala/sutd/compiler/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.25 12:39:37 WARN  no build target for: /Users/aishwaryaiyer/Documents/GitHub/homework/fp_intro/src/main/scala/sutd/compiler/Main.scala
+2025.09.25 12:39:37 INFO  no build target found for /Users/aishwaryaiyer/Documents/GitHub/homework/fp_intro/src/main/scala/sutd/compiler/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.25 12:39:38 INFO  no build target found for /Users/aishwaryaiyer/Documents/GitHub/homework/fp_intro/src/main/scala/sutd/compiler/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.25 12:41:44 INFO  no build target found for /Users/aishwaryaiyer/Documents/GitHub/homework/fp_intro/src/main/scala/sutd/compiler/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.25 12:41:45 INFO  no build target found for /Users/aishwaryaiyer/Documents/GitHub/homework/fp_intro/src/main/scala/sutd/compiler/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.25 12:43:07 INFO  Shutting down server
+2025.09.25 12:43:07 INFO  shutting down Metals
+2025.09.25 12:43:07 INFO  Exiting server
+2025.09.25 12:43:07 ERROR Unexpected error initializing server: 
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2025.09.25 13:10:41 INFO  Started: Metals version 1.6.2 in folders '/Users/aishwaryaiyer/Documents/GitHub/homework' for client Visual Studio Code 1.90.2.
+2025.09.25 13:10:41 INFO  no build target found for /Users/aishwaryaiyer/Documents/GitHub/homework/fp_intro/src/main/scala/sutd/compiler/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.25 13:10:42 INFO  no build target found for /Users/aishwaryaiyer/Documents/GitHub/homework/fp_intro/src/main/scala/sutd/compiler/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.25 13:10:43 INFO  no build target found for /Users/aishwaryaiyer/Documents/GitHub/homework/fp_intro/src/main/scala/sutd/compiler/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.25 13:10:45 INFO  Shutting down server
+2025.09.25 13:10:45 INFO  shutting down Metals
+2025.09.25 13:10:45 INFO  Exiting server
+2025.09.25 13:10:45 ERROR Unexpected error initializing server: 
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+

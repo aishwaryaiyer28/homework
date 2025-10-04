@@ -1,0 +1,15 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/aishwaryaiyer/Documents/GitHub/homework/fp_intro/target/scala-3.7.2/helloworld_3-0.0.1.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	sutd[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/aishwaryaiyer/Documents/GitHub/homework/fp_intro/target/scala-3.7.2/classes/sutd[0m
+[0m[[0m[0mdebug[0m] [0m[0m	sutd/compiler[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/aishwaryaiyer/Documents/GitHub/homework/fp_intro/target/scala-3.7.2/classes/sutd/compiler[0m
+[0m[[0m[0mdebug[0m] [0m[0m	sutd/compiler/helloworld[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/aishwaryaiyer/Documents/GitHub/homework/fp_intro/target/scala-3.7.2/classes/sutd/compiler/helloworld[0m
+[0m[[0m[0mdebug[0m] [0m[0m	sutd/compiler/helloworld/Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/aishwaryaiyer/Documents/GitHub/homework/fp_intro/target/scala-3.7.2/classes/sutd/compiler/helloworld/Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	sutd/compiler/helloworld/Main.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/aishwaryaiyer/Documents/GitHub/homework/fp_intro/target/scala-3.7.2/classes/sutd/compiler/helloworld/Main.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	sutd/compiler/helloworld/Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/aishwaryaiyer/Documents/GitHub/homework/fp_intro/target/scala-3.7.2/classes/sutd/compiler/helloworld/Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
